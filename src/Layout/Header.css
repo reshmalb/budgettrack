@@ -1,0 +1,25 @@
+/* HEADER START*/
+header{
+    width:100%;
+    background-color: rgba(23,23,23,0.15);
+    padding: 20px;
+    position: absolute;
+    top:0;
+  }
+  header a{
+    text-decoration: none;
+    margin-right: 100px;/* space between home about contact*/
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:rgba(255,255,255,0.719);
+    font-family: tahoma;
+  
+  
+  }
+  
+  header .container{
+    display: flex;
+    justify-content: space-between;
+   
+  }
+  /* HEADER END*/

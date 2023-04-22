@@ -1,0 +1,103 @@
+.input-group-expense{
+  width:300px;
+  margin:30px auto;
+  display:flex;
+  flex-direction: column;
+  /* position: relative;for input label */
+}
+.input-group-expense label{
+    color:rgb(13, 12, 12);
+    font-size:14px;
+    /* position: absolute; */
+    /* top: 10px; */
+    /* transition: 0.5s ease-in-out; */
+}
+.input-group-expense select{
+  color:rgb(13, 12, 12);
+}
+.input-group-expense input{
+  /* border:none; */
+  padding: 7px;
+  margin-top: 5px;
+  /* outline: none; */
+  color: #2098ca;
+  /* caret-color:black; */
+  /* border-bottom: 1px solid #c9c9c98a; */
+}
+.input-group-expense input:focus~label{
+  color:#2098ca;
+  top: -10px;
+  font-size: 12px;
+ 
+}
+ .input-group-expense input:focus~label,
+
+ .input-group-expense input:valid~label{
+  color:#2098ca;
+  top: -10px;
+  font-size: 12px;
+ 
+}
+/* .submit-button-expense{
+  color: white;
+  border:none;
+  padding:  10px 0;
+  margin-top: 15px;
+  border-radius: 5px;
+  width: 200px;
+  margin-bottom: 20px;
+  cursor:pointer;
+} */
+.submit-button-expense{
+
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+.submit-button-expense:hover{
+  box-shadow: 0 3px 6px silver
+}
+/* .submit-button-expense{
+  background-color: #2098ca;
+  
+  color: white;
+  border:none;
+  padding:  10px 0;
+  margin-top: 15px;
+  border-radius: 5px;
+  width:200px;
+  margin-bottom: 20px;
+  cursor:pointer;
+} */
+.table-section{
+  width:100%;
+  margin-top: 150px;;
+  margin-left:0;
+  height: auto;
+  background-color: white;
+  border-radius: 12px;
+  margin-bottom: 100px;
+  font-weight: 14px;
+
+}
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.5em;
+  border: 1px solid black;
+}
+
+.table th {
+  background-color: #f1f1f1;
+}
+
+.total-amount {
+  font-weight: bold;
+}

@@ -1,0 +1,25 @@
+.banner-container{
+    margin-top: 10px;
+    width:100%;
+    height: 100vh;
+    /* background-image: url('./web.jpg');
+    filter: brightness(1); */
+    background: linear-gradient(rgba(6,72,105,0.849),rgba(3,96,133)),url('../web.jpg');
+    /* background: linear-gradient(red,45deg,  rgba(6,72,105,0.849),rgba(3,96,133)); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    
+  
+  
+  }
+  
+  .banner-container .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    align-items: center;
+  
+  }

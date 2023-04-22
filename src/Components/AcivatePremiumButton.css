@@ -1,0 +1,14 @@
+.active-button-dashboard{
+    background-color:#2098ca;
+    color: white;
+    border:none;
+    padding:  10px 0;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 20px;
+    cursor:pointer;
+  }
+  .active-button-dashboard:hover{
+    box-shadow: 0 3px 6px silver
+  }
